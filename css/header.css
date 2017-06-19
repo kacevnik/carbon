@@ -1,0 +1,155 @@
+/*------------HEADER--------------------*/
+header{
+	width: 100%;
+	background: #fafbfd;
+	overflow: hidden;
+	padding: 0 0 0 0;
+}
+
+.header_left{
+	float: left;
+	position: relative;
+}
+
+.header_left nav{
+	float: left;
+	margin: 15px 0 20px 0;
+}
+
+.header_logo{
+	float: right;
+	margin: 5px 0 0 0;
+}
+
+.header_logo img{
+	height: 50px;
+}
+
+.header_right{
+	float: right;
+}
+
+.top-menu{
+	
+}
+
+.top-menu li{
+	float: left;
+}
+
+.top-menu li a{
+	color: #000;
+	font-size: 16px;
+	margin: 0 20px 0 0;
+	font-weight: 100;
+}
+
+.top-menu li a:hover{
+	text-decoration: none;
+}
+
+.top-menu >.current-menu-item a{
+	font-weight: 300;
+}
+
+.bottom_line{
+	height: 3px;
+	position: absolute;
+	border-bottom: 3px solid #007fce;
+	bottom: 0;
+	width: 30px;
+}
+
+.header_right_list{
+	margin: 18px 0 0 0;
+}
+
+.header_right_list li{
+	float: left;
+	margin: 0 0 0 20px;
+}
+
+.header_cart{
+	font-weight: 100;
+	font-size: 20px;
+	position: relative;
+}
+
+.header_cart i{
+	margin: 0 0 0 10px;
+	color: #90979d;
+	cursor: pointer;
+}
+
+.header_cart span{
+	background: #4a99dc;
+	color: #fff;
+	font-size: 10px;
+	padding: 2px 4px;
+	border-radius: 3px;
+	position: absolute;
+	right: -8px;
+	top: -7px;
+	border: 1px solid #fff;
+}
+
+.header_favorites{
+	position: relative;
+	font-size: 20px;
+	font-weight: 100;
+	cursor: pointer;
+	color: #90979d;
+}
+
+.header_favorites span{
+	background: #4a99dc;
+	color: #fff;
+	font-size: 10px;
+	padding: 2px 4px;
+	border-radius: 3px;
+	position: absolute;
+	right: -12px;
+	top: -7px;
+	border: 1px solid #fff;
+}
+
+.header_login{
+	font-size: 18px;
+	font-weight: 100;
+}
+
+.header_login a{
+	color: #90979d;
+	padding: 0 15px 0 0;
+	position: relative;
+}
+
+.header_login a:hover{
+	text-decoration: none;
+	color: #4a99dc;
+}
+
+.header_login i{
+	margin: 0 5px 0 0;
+}
+
+.header_login a:after{
+	content: "";
+	border: 5px solid transparent;
+	border-top: 5px solid #90979d;
+	top: 50%;
+	position: absolute;
+	right: 0;
+}
+
+.header_lang a{
+	color: #90979d;
+	font-size: 16px;
+}
+
+.header_lang a:hover{
+	text-decoration: none;
+	color: #4a99dc;
+}
+
+
