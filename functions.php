@@ -116,6 +116,7 @@ if (!function_exists('add_styles')) { // если ф-я уже есть в до�
 	    wp_enqueue_style( 'bs', get_template_directory_uri().'/css/bootstrap.min.css' ); // бутстрап
 	    wp_enqueue_style( 'font', get_template_directory_uri().'/css/font-awesome.min.css' ); //Шрифты
 		wp_enqueue_style( 'header', get_template_directory_uri().'/css/header.css' ); // основные стили шаблона
+		wp_enqueue_style( 'footer', get_template_directory_uri().'/css/footer.css' ); // основные стили шаблона
 		wp_enqueue_style( 'mainstyle', get_template_directory_uri().'/css/style.css' ); // основные стили шаблона
 	}
 }

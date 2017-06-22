@@ -1,0 +1,136 @@
+/*-----------------FOOTER-------------_*/
+
+footer{
+	background: #1a1e21;
+	color: #fff;
+	padding: 20px 0;
+}
+
+.top_footer{
+	padding: 0 0 20px 0;
+	position: relative;
+}
+
+.top_footer:after{
+	content: "";
+	width: 80%;
+	text-align: center;
+	height: 3px;
+	border-bottom: 2px solid #37383a;
+	bottom: 0;
+	position: absolute;
+	left: 10%;
+}
+
+.top_footer h5{
+	text-align: center;
+	margin: 0 0 20px 0;
+	font-weight: 300;
+}
+
+.footer_phone{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+.footer_phone img{
+	width: 30px;
+}
+
+.footer_subscribe{
+	text-align: center;
+}
+
+.footer_subscribe input[type="email"]{
+	border: none;
+	border-right: 2px solid #5e6369;
+	background: #3d4246;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 10px;
+	margin: 0px;
+	color: #838486;
+	font-weight: 300;
+}
+
+.footer_subscribe input[type="submit"]{
+	border: none;
+	background: #3d4246;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 10px;
+	margin: 0px;
+	color: #838486;
+	font-weight: 300;
+	margin-left: -4px;
+}
+
+.footer_subscribe select{
+    border: none;
+    background: #3d4246;
+    padding: 10px;
+    color: #838486;
+    margin-right: 10px;
+    font-weight: 300;
+    height: 38px;
+    border-radius: 5px;
+    min-width: 220px;
+}
+
+.bottom_footer{
+	padding: 20px 0 0 0;
+}
+
+.footer_call_back_div{
+	text-align: center;
+}
+
+.footer_call_back{
+	color: #fff;
+	font-weight: 300;
+	border: 1px solid #fff;
+	padding: 5px 8px;
+}
+
+.footer_call_back:hover{
+	text-decoration: none;
+	background: #fff;
+	color: #000;
+}
+
+.footer_copy{
+	text-align: center;
+	font-weight: 300;
+}
+
+.footer_copy a{
+	color: #fff;
+	text-decoration: underline;
+}
+
+.footer_copy a:hover{
+	text-decoration: none;
+}
+
+.bottom-menu li{
+	float: left;
+	margin-left: 12px;
+	font-size: 16px;
+}
+
+.bottom-menu li a{
+	color: #fff;
+	width: 25px;
+	height: 25px;
+	background: rgba(0, 0, 0, 0);
+	display: block;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 1.7;
+}
+
+.bottom-menu li a:hover{
+	color: #000;
+	background: #fff;
+}
