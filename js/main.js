@@ -14,5 +14,15 @@ jQuery(document).ready(function ($) {
 		var t = $('.top-menu').offset();
 		$('.bottom_line').stop().animate({width: c, left: a.left-t.left}, 100);
 	});
+
+	$("#lightSlider").lightSlider({
+        item: 1,
+        autoWidth: false,
+        speed: 400, //ms'
+        auto: true,
+        loop: true,
+        slideEndAnimation: true,
+        pause: 5000,
+    });
 	
 });

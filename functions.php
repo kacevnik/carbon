@@ -105,6 +105,7 @@ if (!function_exists('add_scripts')) { // если ф-я уже есть в до
 	    wp_enqueue_script('owl-carousel', get_template_directory_uri().'/js/owl.carousel.min.js','','',true); // jQuery Карусель https://owlcarousel2.github.io/OwlCarousel2/ 
 	    wp_enqueue_script('stellar-paralax', get_template_directory_uri().'/js/stellar.min.js','','',true); // Плагин паралакс https://habrahabr.ru/post/145772/
 	    wp_enqueue_script('tinynav', get_template_directory_uri().'/js/tinynav.min.js','','',true); // Скрипт оптимизации при различных разрешениях экрана
+	    wp_enqueue_script('lightslider', get_template_directory_uri().'/js/lightslider.js','','',true); // Скрипт оптимизации при различных разрешениях экрана
 	    wp_enqueue_script('main', get_template_directory_uri().'/js/main.js','','',true); // основные скрипты шаблона
 	}
 }
@@ -115,6 +116,7 @@ if (!function_exists('add_styles')) { // если ф-я уже есть в до�
 	    if(is_admin()) return false; // если мы в админке - ничего не делаем
 	    wp_enqueue_style( 'bs', get_template_directory_uri().'/css/bootstrap.min.css' ); // бутстрап
 	    wp_enqueue_style( 'font', get_template_directory_uri().'/css/font-awesome.min.css' ); //Шрифты
+	    wp_enqueue_style( 'lightslider', get_template_directory_uri().'/css/lightslider.min.css' ); //Шрифты
 		wp_enqueue_style( 'header', get_template_directory_uri().'/css/header.css' ); // основные стили шаблона
 		wp_enqueue_style( 'footer', get_template_directory_uri().'/css/footer.css' ); // основные стили шаблона
 		wp_enqueue_style( 'mainstyle', get_template_directory_uri().'/css/style.css' ); // основные стили шаблона
