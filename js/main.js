@@ -17,12 +17,28 @@ jQuery(document).ready(function ($) {
 
 	$("#lightSlider").lightSlider({
         item: 1,
-        autoWidth: false,
         speed: 400, //ms'
         auto: true,
         loop: true,
         slideEndAnimation: true,
         pause: 5000,
+        pauseOnHover: true,
+        controls: true,
+        prevHtml: '<i class="fa fa-angle-left"></i>',
+        nextHtml: '<i class="fa fa-angle-right"></i>'
     });
-	
+
+   $('.row_project_item a').each(function(index ,value){
+   		$(this).css({'background-image': 'url('+$(this).find("img").attr("src")+')'})
+   });
+
+   $('.row_project_item a').hover(function(){
+   		$('.row_project_item a').not(this).stop().animate({'background-size': '100%', 'background-position-x': '0', 'background-position-y': '0'},100);
+   		$(this).stop().animate({'background-size': '120%', 'background-position-x': '-30px', 'background-position-y': '-30px'},100);
+   });
+
+   $('.row_project').mouseleave(function(){
+   		$('.row_project_item a').stop().animate({'background-size': '100%', 'background-position-x': '0', 'background-position-y': '0'},100);
+   });
+
 });
