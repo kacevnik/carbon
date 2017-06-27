@@ -41,9 +41,13 @@ jQuery(document).ready(function ($) {
    		$('.row_project_item a').stop().animate({'background-size': '100%', 'background-position-x': '0', 'background-position-y': '0'},100);
    });
 
-   $('#top-nav li .sub-menu li .sub-menu').each(function(index ,value){
-      $(this).css({'left': $(this).parent().parent().width()+'px'});
-      $(this).offset({top: $(this).parent().parent().offset().top});
+
+   $('#top-nav li .sub-menu li').hover(function(){
+      $('#top-nav li .sub-menu li .sub-menu').each(function(index ,value){
+        $(this).css({'left': $(this).parent().parent().width()+'px'});
+        $(this).offset({top: $(this).parent().parent().offset().top});
+     });
    });
+
 
 });

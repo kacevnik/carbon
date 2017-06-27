@@ -13,7 +13,7 @@ header{
 
 .header_left nav{
 	float: left;
-	margin: 15px 0 20px 0;
+	margin: 15px 0 0 0;
 }
 
 .header_logo{
@@ -35,6 +35,8 @@ header{
 
 .top-menu li{
 	float: left;
+	height: 100%;
+	padding: 0 0 20px 0;
 }
 
 .top-menu li a{
