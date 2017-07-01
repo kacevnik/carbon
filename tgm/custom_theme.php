@@ -78,6 +78,20 @@ function kovalev_register_required_plugins() {
 			'slug'               => 'contact-form-7',
 			'required'  		 => true,
 			'force_activation'   => true,
+		),
+
+		array(
+			'name'               => 'Menu Image',
+			'slug'               => 'menu-image',
+			'required'  		 => true,
+			'force_activation'   => true,
+		),
+
+		array(
+			'name'               => 'WooCommerce',
+			'slug'               => 'woocommerce',
+			'required'  		 => true,
+			'force_activation'   => true,
 		)
 
 		// This is an example of the use of 'is_callable' functionality. A user could - for instance -
